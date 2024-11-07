@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Карта - Valorant Lineups</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    #map-container {
+      position: relative;
+      width: 800px;
+      margin: 0 auto;
+    }
+    #map-image {
+      width: 100%;
+    }
+    .map-point {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      background-color: rgba(100, 15, 121, 0.8);
+      border-radius: 50%;
+      cursor: pointer;
+      transform: translate(-50%, -50%);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .map-point img {
+      max-width: 70%;
+      max-height: 70%;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="media/header.webp" alt="Header Image" />
+  </div>
+
+  <div class="container">
+    <h1>Map - <span id="map-name"></span></h1>
+    <div id="map-container">
+      <img id="map-image" src="" alt="Карта" />
+      <div id="points-container"></div>
+    </div>
+    <button id="back-button">Back</button>
+  </div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const map = urlParams.get("map");
+    const agent = urlParams.get("agent");
+    const side = urlParams.get("side");
+
+    document.getElementById(
+      "map-name"
+    ).textContent = `${map} - ${agent} (${side})`;
+
+    document.getElementById("map-image").src = `media/${map}/${map}.svg`;
+
+    fetch("lineups.json")
+      .then((response) => response.json())
+      .then((data) => {
+        const points = data[map][agent][side].points;
+        const pointsContainer = document.getElementById("points-container");
+
+        points.forEach((point) => {
+          const pointElement = document.createElement("div");
+          pointElement.className = "map-point";
+          pointElement.style.left = `${point.coordinates.x}px`;
+          pointElement.style.top = `${point.coordinates.y}px`;
+          pointElement.title = point.name;
+
+          const skillId = point.skill;
+          const skillIconPath = `media/Icons/skills/${agent}_${skillId}.svg`;
+          const agentIconPath = `media/Icons/agents/${agent}.png`;
+
+          const img = document.createElement("img");
+
+          fetch(skillIconPath)
+            .then((response) => {
+              if (response.ok) {
+                img.src = skillIconPath;
+              } else {
+                img.src = agentIconPath;
+              }
+            })
+            .catch(() => {
+              img.src = agentIconPath;
+            });
+
+          pointElement.appendChild(img);
+
+          pointElement.addEventListener("click", () => {
+            if (point.lineups.length === 1) {
+              const lineup = point.lineups[0];
+              window.location.href = `lineup.html?map=${encodeURIComponent(
+                map
+              )}&agent=${encodeURIComponent(
+                agent
+              )}&side=${encodeURIComponent(
+                side
+              )}&pointId=${encodeURIComponent(
+                point.id
+              )}&lineupId=${encodeURIComponent(
+                lineup.id
+              )}&singleLineup=true`;
+            } else {
+              window.location.href = `from.html?map=${encodeURIComponent(
+                map
+              )}&agent=${encodeURIComponent(
+                agent
+              )}&side=${encodeURIComponent(
+                side
+              )}&pointId=${encodeURIComponent(point.id)}`;
+            }
+          });
+
+          pointsContainer.appendChild(pointElement);
+        });
+      });
+
+    document.getElementById("back-button").addEventListener("click", () => {
+      window.location.href = `side.html?map=${encodeURIComponent(
+        map
+      )}&agent=${encodeURIComponent(agent)}`;
+    });
+  </script>
+</body>
+</html>

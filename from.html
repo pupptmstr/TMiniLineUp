@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>T-Mini-LineUp</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      #map-container {
+        position: relative;
+        width: 800px;
+        margin: 0 auto;
+      }
+      #map-image {
+        width: 100%;
+      }
+      .map-point {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        background-color: rgba(100, 15, 121, 0.8);
+        border-radius: 50%;
+        cursor: pointer;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .map-point img {
+        max-width: 70%;
+        max-height: 70%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img src="media/header.webp" alt="Header Image" />
+    </div>
+
+    <div class="container">
+      <h1>Lineup launch point select</h1>
+      <div id="map-container">
+        <img id="map-image" src="" alt="Карта" />
+        <div id="points-container"></div>
+      </div>
+      <button id="back-button">Back</button>
+    </div>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const map = urlParams.get("map");
+      const agent = urlParams.get("agent");
+      const side = urlParams.get("side");
+      const pointId = urlParams.get("pointId");
+
+      if (map && agent && side && pointId) {
+        document.getElementById("map-image").src = `media/${map}/${map}.svg`;
+
+        fetch("lineups.json")
+          .then((response) => response.json())
+          .then((data) => {
+            const point = data[map][agent][side].points.find(
+              (p) => p.id == pointId
+            );
+
+            if (point) {
+              const lineups = point.lineups;
+              const pointsContainer =
+                document.getElementById("points-container");
+
+              lineups.forEach((lineup) => {
+                const fromPoint = lineup.from;
+
+                const pointElement = document.createElement("div");
+                pointElement.className = "map-point";
+                pointElement.style.left = `${fromPoint.coordinates.x}px`;
+                pointElement.style.top = `${fromPoint.coordinates.y}px`;
+                pointElement.title = fromPoint.name;
+
+                const img = document.createElement("img");
+                const agentIconPath = `media/Icons/agents/${agent}.png`;
+                img.src = agentIconPath;
+                pointElement.appendChild(img);
+
+                pointElement.addEventListener("click", () => {
+                  window.location.href = `lineup.html?map=${encodeURIComponent(
+                    map
+                  )}&agent=${encodeURIComponent(
+                    agent
+                  )}&side=${encodeURIComponent(
+                    side
+                  )}&pointId=${encodeURIComponent(
+                    pointId
+                  )}&lineupId=${encodeURIComponent(lineup.id)}`;
+                });
+
+                pointsContainer.appendChild(pointElement);
+              });
+            } else {
+              alert("Точка назначения не найдена.");
+              window.history.back();
+            }
+          });
+      } else {
+        alert("Отсутствуют необходимые параметры.");
+        window.history.back();
+      }
+
+      document.getElementById("back-button").addEventListener("click", () => {
+        window.location.href = `map.html?map=${encodeURIComponent(
+          map
+        )}&agent=${encodeURIComponent(agent)}&side=${encodeURIComponent(side)}`;
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>T-Mini-LineUp</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="media/header.webp" alt="Header Image" />
+    </div>
+
+    <div class="container">
+      <h1>Choose an agent</h1>
+      <div class="content-grid" id="agent-grid"></div>
+
+      <button id="back-button">Back</button>
+    </div>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const map = urlParams.get("map");
+
+      const agents = [
+        "Astra",
+        "Breach",
+        "Brimstone",
+        "Chamber",
+        "Clove",
+        "Cypher",
+        "Deadlock",
+        "Fade",
+        "Gekko",
+        "Harbor",
+        "Iso",
+        "Jett",
+        "Kayo",
+        "Killjoy",
+        "Neon",
+        "Omen",
+        "Phoenix",
+        "Raze",
+        "Reyna",
+        "Sage",
+        "Skye",
+        "Sova",
+        "Viper",
+        "Vyse",
+        "Yoru",
+      ];
+
+      const agentGrid = document.getElementById("agent-grid");
+
+      agents.forEach((agent) => {
+        const card = document.createElement("div");
+        card.className = "card";
+        card.onclick = () => {
+          window.location.href = `side.html?map=${encodeURIComponent(
+            map
+          )}&agent=${encodeURIComponent(agent)}`;
+        };
+
+        const img = document.createElement("img");
+        img.src = `media/Icons/agents/${agent}.png`;
+        img.alt = agent;
+
+        const title = document.createElement("div");
+        title.className = "card-title";
+        title.textContent = agent;
+
+        card.appendChild(img);
+        card.appendChild(title);
+        agentGrid.appendChild(card);
+      });
+
+      // Обработчик кнопки "Назад"
+      document.getElementById("back-button").addEventListener("click", () => {
+        window.location.href = `index.html`;
+      });
+    </script>
+  </body>
+</html>

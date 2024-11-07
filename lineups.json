@@ -1,0 +1,2256 @@
+{
+  "Abyss": {
+    "Astra": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Breach": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Brimstone": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Chamber": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Clove": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Cypher": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Deadlock": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Fade": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Gekko": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Harbor": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Iso": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Jett": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Kayo": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Killjoy": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Neon": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Omen": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Phoenix": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Raze": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Reyna": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sage": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Skye": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sova": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Viper": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Vyse": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Yoru": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    }
+  },
+  "Ascent": {
+    "Astra": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Breach": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Brimstone": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Chamber": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Clove": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Cypher": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Deadlock": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Fade": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Gekko": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Harbor": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Iso": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Jett": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Kayo": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Killjoy": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Neon": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Omen": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Phoenix": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Raze": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Reyna": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sage": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Skye": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sova": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Viper": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Vyse": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Yoru": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    }
+  },
+  "Bind": {
+    "Astra": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Breach": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Brimstone": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Chamber": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Clove": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Cypher": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Deadlock": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Fade": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Gekko": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Harbor": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Iso": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Jett": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Kayo": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Killjoy": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Neon": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Omen": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Phoenix": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Raze": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Reyna": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sage": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Skye": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sova": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Viper": {
+      "attack": {
+        "points": [
+          {
+            "id": 1,
+            "name": "A Site Default",
+            "skill": 1,
+            "coordinates": { "x": 535, "y": 308 },
+            "lineups": [
+              {
+                "id": 1,
+                "from": {
+                  "id": 1,
+                  "coordinates": { "x": 538, "y": 446 },
+                  "name": "Подъем на шорте"
+                },
+                "images": [
+                  "bind_viper_attack_1_1_img1.jpg"
+                ],
+                "videos": ["https://www.youtube.com/embed/p15ipkCKTQ0"],
+                "notes": "без прыжка, летит долго, кидать чуть заранее"
+              },
+              {
+                "id": 2,
+                "from": {
+                  "id": 2,
+                  "coordinates": { "x": 555, "y": 495 },
+                  "name": "Угол в переходе с шорта в лобби"
+                },
+                "images": [],
+                "videos": ["https://www.youtube.com/embed/aU1HTOMz0-E"]
+              }
+            ]
+          }
+        ]
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Vyse": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Yoru": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    }
+  },
+  "Breeze": {
+    "Astra": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Breach": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Brimstone": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Chamber": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Clove": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Cypher": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Deadlock": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Fade": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Gekko": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Harbor": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Iso": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Jett": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Kayo": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Killjoy": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Neon": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Omen": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Phoenix": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Raze": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Reyna": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sage": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Skye": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sova": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Viper": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Vyse": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Yoru": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    }
+  },
+  "Fracture": {
+    "Astra": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Breach": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Brimstone": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Chamber": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Clove": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Cypher": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Deadlock": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Fade": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Gekko": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Harbor": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Iso": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Jett": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Kayo": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Killjoy": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Neon": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Omen": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Phoenix": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Raze": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Reyna": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sage": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Skye": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sova": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Viper": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Vyse": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Yoru": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    }
+  },
+  "Heaven": {
+    "Astra": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Breach": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Brimstone": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Chamber": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Clove": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Cypher": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Deadlock": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Fade": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Gekko": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Harbor": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Iso": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Jett": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Kayo": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Killjoy": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Neon": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Omen": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Phoenix": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Raze": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Reyna": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sage": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Skye": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sova": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Viper": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Vyse": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Yoru": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    }
+  },
+  "Icebox": {
+    "Astra": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Breach": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Brimstone": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Chamber": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Clove": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Cypher": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Deadlock": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Fade": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Gekko": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Harbor": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Iso": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Jett": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Kayo": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Killjoy": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Neon": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Omen": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Phoenix": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Raze": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Reyna": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sage": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Skye": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sova": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Viper": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Vyse": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Yoru": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    }
+  },
+  "Lotus": {
+    "Astra": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Breach": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Brimstone": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Chamber": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Clove": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Cypher": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Deadlock": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Fade": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Gekko": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Harbor": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Iso": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Jett": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Kayo": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Killjoy": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Neon": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Omen": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Phoenix": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Raze": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Reyna": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sage": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Skye": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sova": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Viper": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Vyse": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Yoru": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    }
+  },
+  "Pearl": {
+    "Astra": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Breach": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Brimstone": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Chamber": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Clove": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Cypher": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Deadlock": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Fade": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Gekko": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Harbor": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Iso": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Jett": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Kayo": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Killjoy": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Neon": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Omen": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Phoenix": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Raze": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Reyna": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sage": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Skye": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sova": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Viper": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Vyse": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Yoru": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    }
+  },
+  "Split": {
+    "Astra": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Breach": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Brimstone": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Chamber": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Clove": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Cypher": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Deadlock": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Fade": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Gekko": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Harbor": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Iso": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Jett": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Kayo": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Killjoy": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Neon": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Omen": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Phoenix": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Raze": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Reyna": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sage": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Skye": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sova": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Viper": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Vyse": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Yoru": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    }
+  },
+  "Sunset": {
+    "Astra": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Breach": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Brimstone": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Chamber": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Clove": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Cypher": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Deadlock": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Fade": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Gekko": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Harbor": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Iso": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Jett": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Kayo": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Killjoy": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Neon": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Omen": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Phoenix": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Raze": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Reyna": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sage": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Skye": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Sova": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Viper": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Vyse": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    },
+    "Yoru": {
+      "attack": {
+        "points": []
+      },
+      "defense": {
+        "points": []
+      }
+    }
+  }
+}

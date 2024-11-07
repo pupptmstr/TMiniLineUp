@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+    <title>T-Mini-LineUp</title>
+    <link rel="stylesheet" href="styles.css" />
+  <style>
+    .lineup-container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+    }
+
+    .lineup-title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .lineup-notes {
+      margin-bottom: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.5;
+    }
+
+    .lineup-details p {
+      text-align: center;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="lineup-title" id="lineup-title"></h1>
+    <div class="lineup-container" id="lineup-details"></div>
+    <button id="back-button">Back</button>
+  </div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const map = urlParams.get('map');
+    const agent = urlParams.get('agent');
+    const side = urlParams.get('side');
+    const pointId = urlParams.get('pointId');
+    const lineupId = urlParams.get('lineupId');
+    const singleLineup = urlParams.get('singleLineup') === 'true';
+
+    if (map && agent && side && pointId && lineupId) {
+      fetch('lineups.json')
+        .then(response => response.json())
+        .then(data => {
+          const point = data[map][agent][side].points.find(p => p.id == pointId);
+
+          if (point) {
+            const lineup = point.lineups.find(l => l.id == lineupId);
+
+            if (lineup) {
+              const lineupTitle = document.getElementById('lineup-title');
+              lineupTitle.textContent = `Lineup to "${point.name}" from "${lineup.from.name}"`;
+
+              const lineupDetails = document.getElementById('lineup-details');
+
+              if (lineup.notes) {
+                const notes = document.createElement('p');
+                notes.className = 'lineup-notes';
+                notes.textContent = `Notes: ${lineup.notes}`;
+                lineupDetails.appendChild(notes);
+              }
+
+              function isURL(str) {
+                return /^https?:\/\//i.test(str);
+              }
+
+              lineup.images.forEach(image => {
+                const img = document.createElement('img');
+
+                if (isURL(image)) {
+                  img.src = image;
+                } else {
+                  img.src = `media/${map}/${agent}/${side}/${image}`;
+                }
+
+                img.id = 'lineup-image';
+                img.alt = 'lineup image';
+                lineupDetails.appendChild(img);
+              });
+
+              lineup.videos.forEach(video => {
+                if (isURL(video)) {
+                  const videoElement = document.createElement('iframe');
+                  videoElement.width = '100%';
+                  videoElement.height = '480px';
+                  videoElement.src = video;
+                  videoElement.allowFullscreen = true;
+                  lineupDetails.appendChild(videoElement);
+                } else {
+                  const videoElement = document.createElement('video');
+                  videoElement.controls = true;
+                  videoElement.src = `media/${map}/${agent}/${side}/${video}`;
+                  lineupDetails.appendChild(videoElement);
+                }
+              });
+            } else {
+              alert('The lineup was not found.');
+              window.history.back();
+            }
+          } else {
+            alert('The destination was not found.');
+            window.history.back();
+          }
+        });
+    } else {
+      alert('The necessary parameters are missing.');
+      window.history.back();
+    }
+
+    document.getElementById('back-button').addEventListener('click', () => {
+      if (singleLineup) {
+        window.location.href = `map.html?map=${encodeURIComponent(map)}&agent=${encodeURIComponent(agent)}&side=${encodeURIComponent(side)}`;
+      } else {
+        window.location.href = `from.html?map=${encodeURIComponent(map)}&agent=${encodeURIComponent(agent)}&side=${encodeURIComponent(side)}&pointId=${encodeURIComponent(pointId)}`;
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>T-Mini-LineUp</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="media/header.webp" alt="Header Image" />
+    </div>
+
+    <div class="container">
+      <h1>Choose a map</h1>
+      <div class="content-grid" id="map-grid"></div>
+    </div>
+
+    <script>
+      const maps = [
+        "Abyss",
+        "Ascent",
+        "Bind",
+        "Breeze",
+        "Fracture",
+        "Heaven",
+        "Icebox",
+        "Lotus",
+        "Pearl",
+        "Split",
+        "Sunset",
+      ];
+
+      const mapGrid = document.getElementById("map-grid");
+
+      maps.forEach((map) => {
+        const card = document.createElement("div");
+        card.className = "card";
+        card.onclick = () => {
+          window.location.href = `agents.html?map=${encodeURIComponent(map)}`;
+        };
+
+        const img = document.createElement("img");
+        img.src = `media/Icons/maps/${map}.webp`;
+        img.alt = map;
+
+        const title = document.createElement("div");
+        title.className = "card-title";
+        title.textContent = map;
+
+        card.appendChild(img);
+        card.appendChild(title);
+        mapGrid.appendChild(card);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>T-Mini-LineUp</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .button-row {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+      }
+      .side-button {
+        flex: 1;
+        margin: 0 10px;
+        padding: 15px;
+        background-color: #555555;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .side-button:hover {
+        background-color: #777777;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img src="media/header.webp" alt="Header Image" />
+    </div>
+
+    <div class="container" id="container">
+      <h1>Choose your side</h1>
+      <div class="button-row">
+        <button id="attack-button" class="side-button">Attack</button>
+        <button id="defense-button" class="side-button">Defense</button>
+      </div>
+      <button id="back-button">Back</button>
+    </div>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const map = urlParams.get("map");
+      const agent = urlParams.get("agent");
+
+      if (map && agent) {
+        document.getElementById("attack-button").addEventListener("click", () => {
+          window.location.href = `map.html?map=${encodeURIComponent(
+            map
+          )}&agent=${encodeURIComponent(agent)}&side=attack`;
+        });
+
+        document.getElementById("defense-button").addEventListener("click", () => {
+          window.location.href = `map.html?map=${encodeURIComponent(
+            map
+          )}&agent=${encodeURIComponent(agent)}&side=defense`;
+        });
+      } else {
+        const container = document.getElementById("container");
+        container.innerHTML = "";
+        const h1 = document.createElement("h1");
+        h1.textContent = "Side choise error";
+
+        const errorMessage = document.createElement("p");
+        errorMessage.textContent = "The necessary parameters are missing:";
+
+        const missingParams = [];
+        if (!map) missingParams.push("map");
+        if (!agent) missingParams.push("agent");
+
+        const paramsList = document.createElement("ul");
+        missingParams.forEach((param) => {
+          const li = document.createElement("li");
+          li.textContent = param;
+          paramsList.appendChild(li);
+        });
+
+        const backLink = document.createElement("button");
+        backLink.textContent = "To main page";
+        backLink.id = "index-button";
+        backLink.onclick = () => {
+          window.location.href = `index.html`;
+        };
+
+        container.appendChild(h1);
+        container.appendChild(errorMessage);
+        container.appendChild(paramsList);
+        container.appendChild(backLink);
+      }
+
+      document.getElementById("back-button").addEventListener("click", () => {
+        window.location.href = `agents.html?map=${encodeURIComponent(map)}`;
+      });
+    </script>
+  </body>
+</html>
